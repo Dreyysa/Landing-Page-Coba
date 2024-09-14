@@ -1,0 +1,126 @@
+:root {
+    --primary-color: #8b0000;
+    --secondary-color: #262626;
+    --info: #f5f5f5;
+    --silver: #C0C0C0;
+}
+*
+{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    list-style-type: none;
+    box-sizing: border-box;
+    font-family: Tahoma;
+}
+
+body
+{
+    background-color: var(--info);
+    color: var(--secondary-color);
+}
+
+header
+{
+    text-align: center;
+    background-color: var(--primary-color);
+    position: fixed;
+    width: 100%;
+    font-weight: bold;
+    padding: 3%;
+    top: 0;
+}
+
+.title
+{
+    color: var(--info);
+    border-bottom: var(--silver);
+    font-size: 20px;
+}
+
+nav
+{
+    margin-top: 25px;
+
+}
+
+nav ul
+{
+display: flex;
+gap: 45px;
+justify-content: center;
+}
+
+nav ul li a:hover {
+    color: var(--silver);
+}
+
+nav ul li a {
+    border-bottom: 1px solid var(--secondary-color);
+    color: var(--secondary-color);
+}
+
+main {
+    padding: 20px;
+}
+
+footer {
+    text-align: center;
+    padding: 10px 0;
+    background-color: #333;
+    color: #fff;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+h1{font-size: 28px;
+    margin-top: 150px;
+    text-align: center;
+    color: var(--secondary-color);
+}
+
+.profile-card {
+    background-color: #fff;
+    border-radius: 12px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 60px; 
+    margin: 20px auto;
+    max-width: 1000px; 
+    text-align: center; 
+    background-image: url(https://img.freepik.com/free-vector/binary-code-white-background-with-floating-numbers_1017-25331.jpg);
+    background-size: cover;
+    background-position: center; 
+}
+
+
+.profile-card img {
+    width: 150px; 
+    height: 150px;
+    border-radius: 50%;
+    margin-bottom: 20px;
+}
+
+
+.profile-card h2 {
+    font-size: 28px;
+    margin-bottom: 10px;
+}
+
+
+.profile-card ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.profile-card li {
+    margin-bottom: 8px;
+}
+
+.profile-card a {
+    text-decoration: none;
+    color: #333;
+    display: block;
+    font-size: 16px;
+}
